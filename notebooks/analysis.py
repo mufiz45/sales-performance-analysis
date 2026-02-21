@@ -37,6 +37,15 @@ monthly_profit = df.groupby("Month")["Profit"].sum()
 print("\nMonthly Profit:")
 print(monthly_profit)
 
+# Plot Monthly Profit
+monthly_profit.plot(kind="line")
+plt.title("Monthly Profit Trend")
+plt.xlabel("Month")
+plt.ylabel("Profit")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
 # Most Profitable Products
 profit_by_product = df.groupby("Product")["Profit"].sum().sort_values(ascending=False)
 
