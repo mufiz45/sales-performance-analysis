@@ -1,0 +1,13 @@
+Order_ID,Order_Date,Product,Category,Region,Quantity,Revenue
+1001,2024-01-05,Laptop,Electronics,West,2,120000
+1002,2024-01-12,Shirt,Clothing,North,5,7500
+1003,2024-02-03,Mobile,Electronics,East,3,45000
+1004,2024-02-18,Shoes,Footwear,West,4,12000
+1005,2024-03-02,Headphones,Electronics,South,6,18000
+1006,2024-03-15,Jeans,Clothing,North,3,6000
+1007,2024-04-07,Laptop,Electronics,East,1,60000
+1008,2024-04-21,Shoes,Footwear,South,2,6000
+1009,2024-05-10,Mobile,Electronics,West,4,60000
+1010,2024-05-22,Shirt,Clothing,North,6,9000
+1011,2024-06-11,Laptop,Electronics,South,2,120000
+1012,2024-06-25,Jeans,Clothing,East,5,10000
