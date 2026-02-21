@@ -69,3 +69,14 @@ region_sales = df.groupby("Region")["Revenue"].sum().sort_values(ascending=False
 
 print("\nRegion-wise Revenue:")
 print(region_sales)
+
+
+print("\n===== Business Summary =====")
+
+total_revenue = df["Revenue"].sum()
+total_profit = df["Profit"].sum()
+avg_margin = df["Profit_Margin"].mean()
+
+print(f"Total Revenue: {total_revenue}")
+print(f"Total Profit: {total_profit}")
+print(f"Average Profit Margin: {avg_margin:.2f}%")
